@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+List of elements which appear in edit appearance section of the theme
+ap_editor - defines type of editor to edit the element values (comma separated)- size(margin, padding, border, dimentions etc.)/text(Color, font.) / background(backgroud properties)
+-->
+<root>
+    <section name="Header">
+        <element name="Header Background" selector="#sp-site-header" editor="both"/>
+        <element name="Site Logo" selector="#sp-site-logo" editor="both"/>
+        <element name="Top Navigation" selector="#sp-site-topmenu" editor="font"/>
+        <element name="Top Phone Number" selector="#sp-site-topmenu" editor="font"/>
+    </section>
+    <section name="content">
+        <element name="Content Background" selector="#sp-site-content" editor="both"/>
+        <element name="Site default" selector="body" editor="both"/>
+        <element name="Paragraphs(p,div) font" selector="p,div" editor="font"/>
+        <element name="Page title font" selector="#sp-page-title" editor="font"/>
+        <element name="Page secondary title font" selector=".sp-page-sectitle" editor="font"/>
+        <element name="Header(H1) font" selector="h1" editor="font"/>
+        <element name="Header(H2) font" selector="h2" editor="font"/>
+        <element name="Header(H3) font" selector="h3" editor="font"/>
+        <element name="Header(H4) font" selector="h4" editor="font"/>
+        <element name="Header(H5) font" selector="h5" editor="font"/>
+        <element name="Header(H6) font" selector="h6" editor="font"/>
+    </section>
+</root>

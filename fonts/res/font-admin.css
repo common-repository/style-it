@@ -1,0 +1,39 @@
+body{
+    font: 12px "Lucida Grande", Verdana, Arial, sans-serif;
+}
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="url"], select {
+    border-color:#DFDFDF;
+    background-color:#ffffff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+}
+.button:hover, .button-secondary:hover, .submit input:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    color: #000;
+    border-color: #666;
+}
+
+#update-nag, .update-nag {
+    background-color: #FFFBCC;
+    border-color: #E6DB55;
+    color: #555;
+}
+#update-nag, .update-nag {
+    line-height: 19px;
+    padding: 5px 0;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-top-width: 0;
+    border-top-style: none;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -khtml-border-bottom-right-radius: 3px;
+    -khtml-border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
